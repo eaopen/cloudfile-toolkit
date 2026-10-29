@@ -8,12 +8,14 @@
 
 | 角色 | 入口 | 常见任务 |
 | --- | --- | --- |
-| 开发 / 支持 | [支持手册](docs/support/README.md) | 版本兼容、故障定位、问题复现 |
+| 开发 / 支持 | [开发与支持手册](docs/support/README.md) | 企业系统集成、扩展开发、版本兼容、故障定位 |
 | 部署实施 | [实施手册](docs/implementation/README.md) | 部署准备、历史导入、增量修复 |
 | 管理运维 | [运维手册](docs/operations/README.md) | 健康、容量、权限、备份与升级 |
 | 使用用户 | [用户手册](docs/user/README.md) | 查找、查看、下载、上传和编辑 |
 
 ## AI 与工具
+
+企业应用接入从 [企业文件管理集成范例](docs/support/enterprise-integration.md) 开始，覆盖身份、组织、权限、业务页面与文件操作的协作边界。
 
 - [Agent 使用边界](docs/ai.md)：使用当前身份，按任务授权，不额外授予管理员权限。
 - [CLI 范围与交付计划](docs/cli.md)：优先通用批量导入，再增加最小查询与诊断。
