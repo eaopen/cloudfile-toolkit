@@ -1,0 +1,11 @@
+# Local credentials and runtime state
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
