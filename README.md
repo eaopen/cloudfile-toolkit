@@ -38,6 +38,8 @@
 
 ## 交付顺序
 
+[近期交付计划](docs/delivery-plan.md) · [多轮迁移与优化设计](docs/implementation/migration-design.md) · [现有工具索引](docs/implementation/tools.md)
+
 1. 整理四类角色手册与现有工具索引（当前阶段）。
 2. 从真实迁移中抽取通用合批执行、持久状态与恢复能力。
 3. 增加最小文件查询与诊断 CLI，按服务端能力接入搜索与权限解释。

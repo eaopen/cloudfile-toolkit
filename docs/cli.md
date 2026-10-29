@@ -13,6 +13,8 @@
 
 后续有真实需求再增加受控上传，不预置删除、权限管理或数据库修复命令。当前工具入口见 [实施手册](implementation/README.md)。
 
+导入设计与能力边界见 [多轮迁移设计](implementation/migration-design.md) 和 [工具索引](implementation/tools.md)；各阶段完成依据见 [近期交付计划](delivery-plan.md)。
+
 ## 实现约束
 
 - 人类可读输出与稳定 `--json` 使用同一实现，明确退出码、错误分类、分页和输出上限。
